@@ -1,0 +1,194 @@
+@charset "utf-8";
+/* CSS Document */
+
+.tw-box{
+	width: 100%;
+	float: left;
+	position: relative;
+	margin: 15px 0 0;
+}
+.tw-box > img{
+	width: 100%;
+}
+.tw-box > a{
+	position: absolute;
+	top: 0;
+	padding: 50% 0 0;
+	color: #fff;
+	text-align: center;
+	font-size: 20px;
+	width: 100%;
+	margin: auto;
+	text-align: center;
+	background-color:rgba(0,0,0, .5);
+	height: 100%;
+	display: none;
+	text-decoration: none;
+}
+.tw-box:hover > a{
+	display: block;
+}
+
+footer{
+	margin: 15px 0 0;
+}
+
+.price-product-box1 {
+    width: 100%;
+    float: left;
+    font-family: 'Roboto';
+    font-size: 16px;
+    color: #55a6e9;
+    text-align: center;
+    text-transform: capitalize;
+    padding: 10px 0;
+	border: solid 1px #ccc;
+}
+.price-product-box1 > a {
+    color: #333333;
+}
+.price-product-box1 > a:hover {
+    color: #f48342;
+}
+
+.quote-h1{
+	width: 100%;
+	float: left;
+	font-size: 18px;
+}
+.quote-p{
+	width: 100%;
+	float: left;
+	font-size: 14px;
+	text-align: justify;
+	line-height: 22px;
+}
+
+.qoute-form{
+	width: 100%;
+	float: left;
+}
+
+.qoute-form > form{
+	width: 100%;
+	float: left;
+}
+.qoute-form > form > label{
+	width: 100%;
+	float: left;
+	margin: 15px 0 5px;
+	color: #333;
+	font-size: 15px;
+	font-weight: normal;
+}
+
+.qoute-form > form > select{
+	width: 100%;
+	float: left;
+	margin: 0;
+	height: 40px;
+	color: #333;
+	padding: 0 10px;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+.quote-fields{
+	width: 100%;
+	float: left;
+	margin: 0;
+	height: 40px;
+	color: #333;
+	padding: 0 10px;
+	font-size: 15px;
+	box-sizing: border-box;
+}
+
+.sign-size{
+	width: 100%;
+	float: left;
+	margin: 15px 0 0;
+	color: #333;
+	font-size: 15px;
+	font-weight: 700;
+}
+
+.qoute-btn {
+    width: 200px;
+    margin: 15px 0;
+    height: 45px;
+    background-color: #f48a22;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0;
+	float: right;
+	border: solid 2px #f48a22;
+	font-size: 20px;
+}
+.qoute-btn:hover{
+	border: solid 2px #333;
+}
+
+.nav > li > a {
+	padding:10px 10px;
+}
+#menu-main-menu .current_page_item {
+	background:#E87717 !important;
+	border-radius:3px;
+}
+.current_page_item a{
+	color:#fff !important;
+}
+.footer-menu {
+	list-style-type:none;
+	padding:20px;
+}
+.footer-menu li a {
+	color:#fff;
+	text-decoration:none;
+}
+.footer-menu .current_page_item {
+	background:none !important;
+}
+.footer-menu li a:hover {
+	text-decoration:underline;
+}
+.rbs_gallery_button {
+	display:none;
+}
+.socialMedia {
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+a#bntQuote {
+   	 position: fixed;
+   	 top: 50%;
+   	 right: 0;
+}
+a#bntQuote > img {
+   	border-radius: 5px 0 0 5px;
+}
+.sfsi_wicons {
+	margin-right:10px;
+}
+.service-btn {
+    width: 200px;
+    margin: 10px auto 0px;
+    height: 50px;
+    background-color: #f48a22;
+    color: #fff;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 0;
+    display: block;
+    line-height: 50px;
+    padding: 0;
+    border-radius: 5px;
+}
+#frmQuote select option {
+   color:#000;
+}
+#frmQuote select option:disabled {
+   color:#ccc;
+}
